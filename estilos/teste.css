@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+@keyframes animacao {
+    from {color: white; }
+    to {color: yellow; }
+}
+
+h1#titulo {
+    color: white;
+    animation-name: animacao;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
